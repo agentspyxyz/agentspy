@@ -1,0 +1,24 @@
+service: agentspy-backend
+
+provider:
+  name: aws
+  runtime: python3.9
+  region: us-east-1
+
+functions:
+  scanTransactions:
+    handler: api/transaction_scanner.scan_top_gainers
+    events:
+      - schedule:
+          rate: rate(5 minutes) # uruchamiaj co 5 minut
+  analyzeWallets:
+    handler: api/wallet_analyzer.analyze_wallet
+    events:
+      - schedule:
+          rate: rate(10 minutes)
+
+plugins:
+  - serverless-python-requirements
+
+package:
+  individually: true
