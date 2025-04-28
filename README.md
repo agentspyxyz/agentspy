@@ -34,7 +34,7 @@ Stay ahead of the market with strategic insights and instant alerts based on the
 ---
 
 ## 🧩 Project Structure
-'''AgentSpy/
+```AgentSpy/
 ├── backend/
 │   ├── api/               # AWS Lambda functions
 │   ├── models/            # ML models (TensorFlow)
@@ -51,7 +51,7 @@ Stay ahead of the market with strategic insights and instant alerts based on the
 ├── README.md
 ├── LICENSE
 ├── CONTRIBUTING.md
-└── .gitignore'''
+└── .gitignore```
 
 ---
 
@@ -73,50 +73,50 @@ You are now empowered to investigate and potentially act **before** the majority
 ### Backend (AWS Lambda Functions)
 
 1. Navigate to the backend folder:
-   '```bash
-   cd backend'
+   ````bash
+   cd backend`
 
 2. Install Python dependencies:
-'pip install -r requirements.txt'
+`pip install -r requirements.txt`
 
-
-Deploy backend using Serverless Framework:
-'cd ../infrastructure
-sls deploy'
+3. Deploy backend using Serverless Framework:
+`cd ../infrastructure
+sls deploy`
 
 Note: Ensure you have the AWS CLI configured and Serverless Framework installed:
-'npm install -g serverless
-aws configure'
+`npm install -g serverless
+aws configure`
 
 ### **Frontend (React.js Application)**
 1. Navigate to the frontend folder:
-'cd frontend'
+`cd frontend`
 
 2. Install Node.js dependencies:
-'npm install'
+`npm install`
 
 3. Start the development server:
-'npm start'
+`npm start`
 
-Visit 'http://localhost:3000/' to access the dashboard.
+Visit `http://localhost:3000/` to access the dashboard.
 
 ⚙️ Environment Configuration
 Before deployment, ensure the following environment variables are configured:
 
-Variable	Purpose
-RPC_ENDPOINT	Solana RPC node endpoint
-MINIMUM_MARKET_CAP	Minimum token market cap to track
-WALLET_TRACKING_LIMIT	Number of top wallets to monitor
+Variable | Purpose
+```RPC_ENDPOINT | Solana RPC node endpoint
+MINIMUM_MARKET_CAP | Minimum token market cap to track
+WALLET_TRACKING_LIMIT | Number of top wallets to monitor```
+
 Environment variables can be set through Serverless serverless.yml or AWS Lambda environment settings.
 
 **📢 Contributing**
 We welcome contributions from the community! 🚀
 
 1. Fork the repository
-2. Create a new branch ('git checkout -b feature/YourFeature')
+2. Create a new branch (`git checkout -b feature/YourFeature`)
 3. Make your changes
-4. Commit your changes ('git commit -m 'Add new feature'')
-5. Push your branch ('git push origin feature/YourFeature')
+4. Commit your changes (`git commit -m 'Add new feature'`)
+5. Push your branch (`git push origin feature/YourFeature`)
 6. Open a Pull Request
 
 Make sure to update documentation and add tests where appropriate.
