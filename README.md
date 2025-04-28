@@ -33,28 +33,6 @@ Stay ahead of the market with strategic insights and instant alerts based on the
 
 ---
 
-## 🧩 Project Structure
-`AgentSpy/
-├── backend/
-│   ├── api/               # AWS Lambda functions
-│   ├── models/            # ML models (TensorFlow)
-│   └── utils/             # Helper functions
-├── frontend/
-│   ├── public/            # Public files (favicon, manifest, etc.)
-│   ├── src/
-│   │   ├── components/    # React components
-│   │   ├── pages/         # Pages (dashboard, alerts, etc.)
-│   │   └── utils/         # Frontend utility functions
-├── infrastructure/
-│   ├── terraform/         # (for Infrastructure as Code, if needed)
-│   └── serverless.yml     # (if using Serverless Framework)
-├── README.md
-├── LICENSE
-├── CONTRIBUTING.md
-└── .gitignore`
-
----
-
 ## 📷 Example Workflow
 
 Imagine receiving the following AgentSpy alert:
@@ -103,9 +81,9 @@ Visit `http://localhost:3000/` to access the dashboard.
 Before deployment, ensure the following environment variables are configured:
 
 Variable | Purpose
-`RPC_ENDPOINT | Solana RPC node endpoint
-MINIMUM_MARKET_CAP | Minimum token market cap to track
-WALLET_TRACKING_LIMIT | Number of top wallets to monitor`
+/ `RPC_ENDPOINT | Solana RPC node endpoint
+/ MINIMUM_MARKET_CAP | Minimum token market cap to track
+/ WALLET_TRACKING_LIMIT | Number of top wallets to monitor`
 
 Environment variables can be set through Serverless serverless.yml or AWS Lambda environment settings.
 
