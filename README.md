@@ -34,7 +34,7 @@ Stay ahead of the market with strategic insights and instant alerts based on the
 ---
 
 ## 🧩 Project Structure
-```AgentSpy/
+`AgentSpy/
 ├── backend/
 │   ├── api/               # AWS Lambda functions
 │   ├── models/            # ML models (TensorFlow)
@@ -51,7 +51,7 @@ Stay ahead of the market with strategic insights and instant alerts based on the
 ├── README.md
 ├── LICENSE
 ├── CONTRIBUTING.md
-└── .gitignore```
+└── .gitignore`
 
 ---
 
