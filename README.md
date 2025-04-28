@@ -34,7 +34,7 @@ Stay ahead of the market with strategic insights and instant alerts based on the
 ---
 
 ## 🧩 Project Structure
-`AgentSpy/
+```AgentSpy/
 ├── backend/
 │   ├── api/               # AWS Lambda functions
 │   ├── models/            # ML models (TensorFlow)
@@ -51,7 +51,7 @@ Stay ahead of the market with strategic insights and instant alerts based on the
 ├── README.md
 ├── LICENSE
 ├── CONTRIBUTING.md
-└── .gitignore`
+└── .gitignore```
 
 ---
 
@@ -73,7 +73,7 @@ You are now empowered to investigate and potentially act **before** the majority
 ### Backend (AWS Lambda Functions)
 
 1. Navigate to the backend folder:
-   ````bash
+   `bash
    cd backend`
 
 2. Install Python dependencies:
@@ -103,9 +103,9 @@ Visit `http://localhost:3000/` to access the dashboard.
 Before deployment, ensure the following environment variables are configured:
 
 Variable | Purpose
-```RPC_ENDPOINT | Solana RPC node endpoint
+`RPC_ENDPOINT | Solana RPC node endpoint
 MINIMUM_MARKET_CAP | Minimum token market cap to track
-WALLET_TRACKING_LIMIT | Number of top wallets to monitor```
+WALLET_TRACKING_LIMIT | Number of top wallets to monitor`
 
 Environment variables can be set through Serverless serverless.yml or AWS Lambda environment settings.
 
