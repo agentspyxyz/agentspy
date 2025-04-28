@@ -34,7 +34,7 @@ Stay ahead of the market with strategic insights and instant alerts based on the
 ---
 
 ## 🧩 Project Structure
-```AgentSpy/
+`AgentSpy/
 ├── backend/
 │   ├── api/               # AWS Lambda functions
 │   ├── models/            # ML models (TensorFlow)
@@ -51,7 +51,7 @@ Stay ahead of the market with strategic insights and instant alerts based on the
 ├── README.md
 ├── LICENSE
 ├── CONTRIBUTING.md
-└── .gitignore```
+└── .gitignore`
 
 ---
 
@@ -73,8 +73,8 @@ You are now empowered to investigate and potentially act **before** the majority
 ### Backend (AWS Lambda Functions)
 
 1. Navigate to the backend folder:
-   `bash
-   cd backend`
+`bash
+cd backend`
 
 2. Install Python dependencies:
 `pip install -r requirements.txt`
