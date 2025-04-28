@@ -6,7 +6,7 @@ Stay ahead of the market with strategic insights and instant alerts based on the
 
 ---
 
-## 🚀 Executive Summary
+## Executive Summary
 
 - **Daily Token Scanning**: Detects top-performing Solana assets exceeding a set market cap and liquidity threshold.
 - **Wallet Intelligence**: Tracks and analyzes the most consistently profitable wallets.
@@ -15,7 +15,7 @@ Stay ahead of the market with strategic insights and instant alerts based on the
 
 ---
 
-## 🧠 Core Features & Innovations
+## Core Features & Innovations
 
 - **Wallet Intelligence Framework (WIF)**: Track high-ROI wallets with strategic behavior patterns.
 - **Profitability Extraction Engine (PEE)**: Analyze ROI, trade volume, and transaction timing to filter top wallets.
@@ -24,7 +24,7 @@ Stay ahead of the market with strategic insights and instant alerts based on the
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **AI/ML**: TensorFlow for wallet behavior prediction.
 - **Blockchain Integration**: Solana RPC API for real-time data.
@@ -33,11 +33,11 @@ Stay ahead of the market with strategic insights and instant alerts based on the
 
 ---
 
-## 📷 Example Workflow
+## Example Workflow
 
 Imagine receiving the following AgentSpy alert:
 
-> 🚨 **Behavioral Convergence Detected**  
+>  **Behavioral Convergence Detected**  
 > 5 high-profit wallets have purchased `$SOLX` in the last 10 minutes.  
 > - Market Cap: $5.2M  
 > - 24h Volume: $1.3M
@@ -46,7 +46,7 @@ You are now empowered to investigate and potentially act **before** the majority
 
 ---
 
-## 🏗️ Installation and Setup
+## Installation and Setup
 
 ### Backend (AWS Lambda Functions)
 
@@ -77,7 +77,7 @@ aws configure`
 
 Visit `http://localhost:3000/` to access the dashboard.
 
-⚙️ Environment Configuration
+Environment Configuration
 Before deployment, ensure the following environment variables are configured:
 
 Variable | Purpose
@@ -87,7 +87,7 @@ Variable | Purpose
 
 Environment variables can be set through Serverless serverless.yml or AWS Lambda environment settings.
 
-**📢 Contributing**
+**Contributing**
 We welcome contributions from the community! 🚀
 
 1. Fork the repository
